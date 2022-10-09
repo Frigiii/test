@@ -1,0 +1,559 @@
+[0.000000] (-) TimerEvent: {}
+[0.000128] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000182] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.000210] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000239] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.008368] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.015011] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.021745] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.021958] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/frigi/dev_ws/test/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/frigi/dev_ws/test/install/cpp_pubsub'], 'cwd': '/home/frigi/dev_ws/test/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'frigi'), ('SSH_CLIENT', '192.168.1.22 53251 22'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/frigi/dev_ws/test/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/frigi'), ('OLDPWD', '/home/frigi/dev_ws/test/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_CH.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/frigi/dev_ws/test/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'frigi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '10'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/frigi/dev_ws/test/install/my_package:/home/frigi/dev_ws/test/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('PWD', '/home/frigi/dev_ws/test/build/cpp_pubsub'), ('SSH_CONNECTION', '192.168.1.22 53251 192.168.1.47 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/frigi/dev_ws/test/install/my_package:/home/frigi/dev_ws/test/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[0.025877] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'cmake'}
+[0.026546] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'build'}
+[0.027389] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/frigi/dev_ws/test/build/my_package', '--', '-j4', '-l4'], 'cwd': '/home/frigi/dev_ws/test/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'frigi'), ('SSH_CLIENT', '192.168.1.22 53251 22'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/frigi/dev_ws/test/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/frigi'), ('OLDPWD', '/home/frigi/dev_ws/test/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_CH.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/frigi/dev_ws/test/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'frigi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '10'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/frigi/dev_ws/test/install/my_package:/home/frigi/dev_ws/test/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('PWD', '/home/frigi/dev_ws/test/build/my_package'), ('SSH_CONNECTION', '192.168.1.22 53251 192.168.1.47 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/frigi/dev_ws/test/install/my_package:/home/frigi/dev_ws/test/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[0.031319] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.032249] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.032694] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/frigi/dev_ws/test/build/turtlesim', '--', '-j4', '-l4'], 'cwd': '/home/frigi/dev_ws/test/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'frigi'), ('SSH_CLIENT', '192.168.1.22 53251 22'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/frigi/dev_ws/test/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/frigi'), ('OLDPWD', '/home/frigi/dev_ws/test/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_CH.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/frigi/dev_ws/test/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'frigi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '10'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/frigi/dev_ws/test/install/my_package:/home/frigi/dev_ws/test/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('PWD', '/home/frigi/dev_ws/test/build/turtlesim'), ('SSH_CONNECTION', '192.168.1.22 53251 192.168.1.47 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/frigi/dev_ws/test/install/my_package:/home/frigi/dev_ws/test/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[0.054118] (my_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098373] (-) TimerEvent: {}
+[0.101978] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.108834] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.111946] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.139241] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_turtlesim\n'}
+[0.171246] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.181982] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.184879] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.191088] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.198466] (-) TimerEvent: {}
+[0.205310] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.224540] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[0.248441] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.249938] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.267278] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target turtlesim_node\n'}
+[0.274358] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtle_teleop_key\n'}
+[0.298564] (-) TimerEvent: {}
+[0.306355] (my_package) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.321468] (turtlesim) StdoutLine: {'line': b'[ 79%] Built target turtlesim\n'}
+[0.322304] (turtlesim) StdoutLine: {'line': b'[ 81%] Built target mimic\n'}
+[0.348273] (turtlesim) StdoutLine: {'line': b'[ 83%] Built target draw_square\n'}
+[0.349710] (turtlesim) StdoutLine: {'line': b'[ 84%] Built target turtlesim__py\n'}
+[0.386043] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.386950] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__rosidl_generator_py\n'}
+[0.398674] (-) TimerEvent: {}
+[0.404446] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.404856] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.405617] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.412428] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.432432] (my_package) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.433019] (my_package) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/frigi/dev_ws/test/src/my_package/include>\n'}
+[0.433280] (my_package) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.434450] (my_package) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.434767] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.436570] (my_package) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.436914] (my_package) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.437914] (my_package) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.439415] (my_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.444505] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.447224] (my_package) StdoutLine: {'line': b'-- Generating done\n'}
+[0.449352] (my_package) StdoutLine: {'line': b'-- Build files have been written to: /home/frigi/dev_ws/test/build/my_package\n'}
+[0.455889] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.470171] (my_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target my_node\x1b[0m\n'}
+[0.481905] (my_package) StdoutLine: {'line': b'[100%] Built target my_node\n'}
+[0.491784] (my_package) CommandEnded: {'returncode': 0}
+[0.498772] (-) TimerEvent: {}
+[0.518275] (my_package) JobProgress: {'identifier': 'my_package', 'progress': 'install'}
+[0.526355] (my_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/frigi/dev_ws/test/build/my_package'], 'cwd': '/home/frigi/dev_ws/test/build/my_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'frigi'), ('SSH_CLIENT', '192.168.1.22 53251 22'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/frigi/dev_ws/test/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/frigi'), ('OLDPWD', '/home/frigi/dev_ws/test/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_CH.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/frigi/dev_ws/test/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'frigi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '10'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/frigi/dev_ws/test/install/my_package:/home/frigi/dev_ws/test/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('PWD', '/home/frigi/dev_ws/test/build/my_package'), ('SSH_CONNECTION', '192.168.1.22 53251 192.168.1.47 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/frigi/dev_ws/test/install/my_package:/home/frigi/dev_ws/test/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[0.533920] (my_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.534400] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/my_package/lib/my_package/my_node\n'}
+[0.534764] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package\n'}
+[0.536047] (my_package) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package\n'}
+[0.536700] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/my_package/share/my_package/environment/ament_prefix_path.sh\n'}
+[0.537012] (my_package) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/my_package/share/my_package/environment/ament_prefix_path.dsv\n'}
+[0.537300] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/my_package/share/my_package/environment/path.sh\n'}
+[0.537557] (my_package) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/my_package/share/my_package/environment/path.dsv\n'}
+[0.537825] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/my_package/share/my_package/local_setup.bash\n'}
+[0.537998] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/my_package/share/my_package/local_setup.sh\n'}
+[0.538138] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/my_package/share/my_package/local_setup.zsh\n'}
+[0.538276] (my_package) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/my_package/share/my_package/local_setup.dsv\n'}
+[0.538411] (my_package) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/my_package/share/my_package/package.dsv\n'}
+[0.538547] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/my_package/share/ament_index/resource_index/packages/my_package\n'}
+[0.538683] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/my_package/share/my_package/cmake/my_packageConfig.cmake\n'}
+[0.538819] (my_package) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake\n'}
+[0.538954] (my_package) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/my_package/share/my_package/package.xml\n'}
+[0.539806] (my_package) CommandEnded: {'returncode': 0}
+[0.556372] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.569780] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.570204] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.571050] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.574661] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.599225] (-) TimerEvent: {}
+[0.603836] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[0.614380] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[0.615476] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[0.615802] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[0.616048] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[0.619484] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.620637] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.648618] (turtlesim) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[0.660552] (turtlesim) CommandEnded: {'returncode': 0}
+[0.699321] (-) TimerEvent: {}
+[0.772999] (cpp_pubsub) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[0.799405] (-) TimerEvent: {}
+[0.860481] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[0.860704] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/frigi/dev_ws/test/build/turtlesim'], 'cwd': '/home/frigi/dev_ws/test/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'frigi'), ('SSH_CLIENT', '192.168.1.22 53251 22'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/frigi/dev_ws/test/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/frigi'), ('OLDPWD', '/home/frigi/dev_ws/test/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_CH.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/frigi/dev_ws/test/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'frigi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '10'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/frigi/dev_ws/test/install/my_package:/home/frigi/dev_ws/test/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('PWD', '/home/frigi/dev_ws/test/build/turtlesim'), ('SSH_CONNECTION', '192.168.1.22 53251 192.168.1.47 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/frigi/dev_ws/test/install/my_package:/home/frigi/dev_ws/test/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[0.868219] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.868550] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.868693] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[0.868826] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim\n'}
+[0.868945] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[0.869308] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[0.869467] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[0.869611] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[0.869756] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[0.869880] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[0.870019] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[0.870157] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[0.870303] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[0.870439] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[0.870567] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[0.870705] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.870849] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[0.870976] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[0.871334] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[0.871483] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[0.871823] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[0.873051] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[0.873552] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[0.874041] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[0.874294] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[0.874629] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[0.875026] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[0.875365] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[0.875597] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[0.876057] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 16.0.1 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.876599] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[0.876852] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[0.877080] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[0.877251] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[0.877442] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[0.877653] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[0.877830] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[0.878234] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[0.878586] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[0.878797] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[0.879028] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[0.879281] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[0.879481] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[0.879720] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[0.879954] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[0.880204] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[0.880351] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[0.880565] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[0.880788] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[0.880950] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[0.881489] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[0.881753] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[0.881873] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[0.882154] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[0.882388] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[0.882548] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim\n'}
+[0.882671] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[0.882781] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[0.882896] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[0.883003] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[0.883146] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.883276] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[0.883387] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[0.883497] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[0.883623] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[0.883764] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[0.883865] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[0.883984] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[0.884094] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[0.884215] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[0.884336] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[0.884453] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[0.884579] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim\n'}
+[0.884693] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[0.884819] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[0.884975] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[0.885131] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[0.885282] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[0.885424] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[0.885563] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[0.885686] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[0.885818] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[0.885945] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[0.886087] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[0.886225] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[0.886360] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[0.886477] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[0.886624] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[0.886760] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[0.886908] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[0.887029] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[0.887156] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[0.887287] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[0.887409] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[0.887534] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[0.887654] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[0.887766] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[0.887882] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[0.887996] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[0.888109] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[0.888222] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[0.888350] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[0.888471] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[0.888583] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[0.888694] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[0.888813] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[0.888922] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[0.889034] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[0.889141] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[0.889262] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[0.889377] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[0.889488] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim\n'}
+[0.889593] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[0.889717] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[0.889837] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[0.889935] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.890049] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.890157] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.890277] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[0.890397] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[0.890521] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[0.890648] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.890764] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.890879] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.890993] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.891106] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.891276] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[0.891429] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[0.891581] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[0.891728] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.891869] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.892004] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim\n'}
+[0.892125] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[0.892260] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.892393] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[0.892530] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[0.892673] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[0.892802] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[0.892933] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[0.893057] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[0.893178] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[0.893305] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[0.893415] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[0.893531] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[0.893655] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[0.893769] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[0.893893] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[0.894011] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[0.894128] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[0.894280] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[0.894445] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[0.894604] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[0.894749] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[0.894889] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[0.895018] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[0.895155] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[0.895289] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[0.895429] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim\n'}
+[0.895567] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[0.895686] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[0.895822] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[0.895948] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.896067] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[0.896186] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.896314] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[0.896441] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[0.896565] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.896678] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.896793] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[0.896908] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[0.897038] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[0.897154] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.897266] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.897379] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[0.897500] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[0.897614] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.897734] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[0.897839] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[0.897951] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[0.898059] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.898174] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[0.898287] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[0.898405] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[0.898541] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[0.898662] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.1-py3.10.egg-info\n'}
+[0.898770] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.1-py3.10.egg-info/PKG-INFO\n'}
+[0.898881] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.1-py3.10.egg-info/SOURCES.txt\n'}
+[0.899009] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.1-py3.10.egg-info/top_level.txt\n'}
+[0.899142] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.1-py3.10.egg-info/dependency_links.txt\n'}
+[0.899249] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[0.899362] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[0.899463] (-) TimerEvent: {}
+[0.899599] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[0.899732] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[0.899862] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[0.899980] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[0.900094] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[0.900192] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[0.900307] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.900426] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[0.900538] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.900670] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.900788] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[0.900913] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.901011] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.901132] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[0.901240] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[0.901355] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[0.901478] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[0.901600] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[0.901702] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[0.901804] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[0.901916] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[0.902028] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[0.902158] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[0.902268] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[0.902371] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[0.902483] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[0.902593] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[0.902708] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[0.902831] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[0.922191] (turtlesim) StdoutLine: {'line': b"Listing '/home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[0.922408] (turtlesim) StdoutLine: {'line': b"Listing '/home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[0.922530] (turtlesim) StdoutLine: {'line': b"Listing '/home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[0.922637] (turtlesim) StdoutLine: {'line': b"Listing '/home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[0.927101] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.927571] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.928061] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.928558] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[0.928861] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[0.929188] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[0.929487] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[0.929797] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[0.930075] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[0.930392] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[0.930645] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[0.930841] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[0.931005] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[0.931287] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[0.931486] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[0.931714] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[0.931875] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[0.932034] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[0.932227] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[0.932397] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[0.932553] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[0.932710] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[0.932902] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[0.933110] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[0.933456] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[0.933778] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[0.934114] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[0.934401] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[0.934601] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[0.934843] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[0.935090] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[0.935345] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[0.935574] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/lib/turtlesim/draw_square\n'}
+[0.935805] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/lib/turtlesim/mimic\n'}
+[0.936032] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/images\n'}
+[0.936264] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[0.936489] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[0.936731] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[0.936976] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[0.937297] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[0.937457] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[0.937609] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[0.937752] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[0.937902] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[0.938067] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/launch\n'}
+[0.938225] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[0.938395] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[0.938553] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[0.938706] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[0.938866] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[0.939019] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[0.939305] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[0.939692] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[0.944439] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[0.944628] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[0.944849] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[0.945059] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/package.dsv\n'}
+[0.945304] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[0.945508] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[0.945711] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.945911] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.946125] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.946317] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[0.946503] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.946726] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.946929] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.947140] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.947346] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[0.947548] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.947749] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.948010] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.948183] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[0.948359] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.948531] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[0.948694] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.948858] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[0.949020] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.949221] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.949386] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.949542] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.949714] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.949881] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.950031] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[0.950199] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[0.950369] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/frigi/dev_ws/test/install/turtlesim/share/turtlesim/package.xml\n'}
+[0.950570] (turtlesim) CommandEnded: {'returncode': 0}
+[0.950998] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.3 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.954262] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.964106] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.3 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.980381] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.999566] (-) TimerEvent: {}
+[1.003058] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.099649] (-) TimerEvent: {}
+[1.099956] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.0 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.103391] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.1 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.172441] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[1.199749] (-) TimerEvent: {}
+[1.207494] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.234996] (cpp_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.287283] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.299874] (-) TimerEvent: {}
+[1.400162] (-) TimerEvent: {}
+[1.500414] (-) TimerEvent: {}
+[1.534762] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.534992] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.535149] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.536035] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.537369] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.537495] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.538120] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.539894] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.554351] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[1.556569] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/frigi/dev_ws/test/build/cpp_pubsub\n'}
+[1.568074] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[1.569512] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[1.569586] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/frigi/dev_ws/test/build/cpp_pubsub', '--', '-j4', '-l4'], 'cwd': '/home/frigi/dev_ws/test/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'frigi'), ('SSH_CLIENT', '192.168.1.22 53251 22'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/frigi/dev_ws/test/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/frigi'), ('OLDPWD', '/home/frigi/dev_ws/test/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_CH.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/frigi/dev_ws/test/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'frigi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '10'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/frigi/dev_ws/test/install/my_package:/home/frigi/dev_ws/test/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('PWD', '/home/frigi/dev_ws/test/build/cpp_pubsub'), ('SSH_CONNECTION', '192.168.1.22 53251 192.168.1.47 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/frigi/dev_ws/test/install/my_package:/home/frigi/dev_ws/test/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[1.600523] (-) TimerEvent: {}
+[1.612385] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[1.612774] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[1.700629] (-) TimerEvent: {}
+[1.800975] (-) TimerEvent: {}
+[1.901310] (-) TimerEvent: {}
+[2.001614] (-) TimerEvent: {}
+[2.101940] (-) TimerEvent: {}
+[2.202262] (-) TimerEvent: {}
+[2.302586] (-) TimerEvent: {}
+[2.402908] (-) TimerEvent: {}
+[2.503245] (-) TimerEvent: {}
+[2.603554] (-) TimerEvent: {}
+[2.703871] (-) TimerEvent: {}
+[2.804190] (-) TimerEvent: {}
+[2.904513] (-) TimerEvent: {}
+[3.004834] (-) TimerEvent: {}
+[3.105156] (-) TimerEvent: {}
+[3.205477] (-) TimerEvent: {}
+[3.305794] (-) TimerEvent: {}
+[3.406119] (-) TimerEvent: {}
+[3.506452] (-) TimerEvent: {}
+[3.606755] (-) TimerEvent: {}
+[3.707084] (-) TimerEvent: {}
+[3.807414] (-) TimerEvent: {}
+[3.907725] (-) TimerEvent: {}
+[4.008043] (-) TimerEvent: {}
+[4.108359] (-) TimerEvent: {}
+[4.208679] (-) TimerEvent: {}
+[4.308994] (-) TimerEvent: {}
+[4.409311] (-) TimerEvent: {}
+[4.509624] (-) TimerEvent: {}
+[4.609944] (-) TimerEvent: {}
+[4.710265] (-) TimerEvent: {}
+[4.810584] (-) TimerEvent: {}
+[4.910902] (-) TimerEvent: {}
+[5.011198] (-) TimerEvent: {}
+[5.111509] (-) TimerEvent: {}
+[5.211812] (-) TimerEvent: {}
+[5.312120] (-) TimerEvent: {}
+[5.412425] (-) TimerEvent: {}
+[5.512724] (-) TimerEvent: {}
+[5.613037] (-) TimerEvent: {}
+[5.713366] (-) TimerEvent: {}
+[5.813686] (-) TimerEvent: {}
+[5.852624] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[5.913797] (-) TimerEvent: {}
+[6.014204] (-) TimerEvent: {}
+[6.056406] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[6.114349] (-) TimerEvent: {}
+[6.214649] (-) TimerEvent: {}
+[6.314952] (-) TimerEvent: {}
+[6.415271] (-) TimerEvent: {}
+[6.515573] (-) TimerEvent: {}
+[6.615891] (-) TimerEvent: {}
+[6.716181] (-) TimerEvent: {}
+[6.816471] (-) TimerEvent: {}
+[6.916762] (-) TimerEvent: {}
+[7.017057] (-) TimerEvent: {}
+[7.117349] (-) TimerEvent: {}
+[7.217649] (-) TimerEvent: {}
+[7.317945] (-) TimerEvent: {}
+[7.418237] (-) TimerEvent: {}
+[7.518532] (-) TimerEvent: {}
+[7.618831] (-) TimerEvent: {}
+[7.719137] (-) TimerEvent: {}
+[7.819428] (-) TimerEvent: {}
+[7.919720] (-) TimerEvent: {}
+[8.020017] (-) TimerEvent: {}
+[8.120310] (-) TimerEvent: {}
+[8.220602] (-) TimerEvent: {}
+[8.320894] (-) TimerEvent: {}
+[8.421190] (-) TimerEvent: {}
+[8.521486] (-) TimerEvent: {}
+[8.621780] (-) TimerEvent: {}
+[8.722074] (-) TimerEvent: {}
+[8.822367] (-) TimerEvent: {}
+[8.922664] (-) TimerEvent: {}
+[9.022953] (-) TimerEvent: {}
+[9.123264] (-) TimerEvent: {}
+[9.223556] (-) TimerEvent: {}
+[9.323856] (-) TimerEvent: {}
+[9.424139] (-) TimerEvent: {}
+[9.459331] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[9.524271] (-) TimerEvent: {}
+[9.624608] (-) TimerEvent: {}
+[9.724921] (-) TimerEvent: {}
+[9.825190] (-) TimerEvent: {}
+[9.840243] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[9.849840] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[9.873890] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[9.874804] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/frigi/dev_ws/test/build/cpp_pubsub'], 'cwd': '/home/frigi/dev_ws/test/build/cpp_pubsub', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'frigi'), ('SSH_CLIENT', '192.168.1.22 53251 22'), ('LC_TIME', 'de_CH.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/frigi/dev_ws/test/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/frigi'), ('OLDPWD', '/home/frigi/dev_ws/test/src'), ('SSH_TTY', '/dev/pts/1'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'de_CH.UTF-8'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('_colcon_cd_root', '/opt/ros/humble/'), ('COLCON_PREFIX_PATH', '/home/frigi/dev_ws/test/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'frigi'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '10'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('LC_ADDRESS', 'de_CH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'de_CH.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/frigi/dev_ws/test/install/my_package:/home/frigi/dev_ws/test/install/turtlesim:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_CH.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_CH.UTF-8'), ('LC_IDENTIFICATION', 'de_CH.UTF-8'), ('PWD', '/home/frigi/dev_ws/test/build/cpp_pubsub'), ('SSH_CONNECTION', '192.168.1.22 53251 192.168.1.47 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/frigi/dev_ws/test/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_CH.UTF-8'), ('LC_PAPER', 'de_CH.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/frigi/dev_ws/test/install/my_package:/home/frigi/dev_ws/test/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[9.881464] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.881745] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[9.883742] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/frigi/dev_ws/test/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[9.883956] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[9.889358] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/frigi/dev_ws/test/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[9.889577] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[9.889755] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[9.889954] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[9.890159] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[9.890346] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[9.890539] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[9.890728] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[9.890919] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[9.891122] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[9.891719] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[9.891904] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[9.892138] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[9.892361] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[9.892555] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[9.892731] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/frigi/dev_ws/test/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[9.894408] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[9.925280] (-) TimerEvent: {}
+[9.941703] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[9.942493] (-) EventReactorShutdown: {}

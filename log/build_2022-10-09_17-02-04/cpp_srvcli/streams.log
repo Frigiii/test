@@ -1,0 +1,7 @@
+[0.027s] Invoking command in '/home/frigi/dev_ws/test/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frigi/dev_ws/test/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/frigi/dev_ws/test/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/frigi/dev_ws/test/install/cpp_srvcli
+[0.036s] -- Configuring incomplete, errors occurred!
+[0.038s] [31mCMake Error at CMakeLists.txt:28:
+[0.038s]   Parse error.  Function missing ending ")".  End of file reached.
+[0.038s] 
+[0.039s] [0m
+[0.043s] Invoked command in '/home/frigi/dev_ws/test/build/cpp_srvcli' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frigi/dev_ws/test/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/frigi/dev_ws/test/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/frigi/dev_ws/test/install/cpp_srvcli

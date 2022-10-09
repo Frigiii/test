@@ -1,0 +1,43 @@
+[0.812s] Invoking command in '/home/frigi/dev_ws/test/src/py_pubsub': PYTHONPATH=/home/frigi/dev_ws/test/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/frigi/dev_ws/test/build/py_pubsub/build install --prefix /home/frigi/dev_ws/test/install/py_pubsub --record /home/frigi/dev_ws/test/build/py_pubsub/install.log --single-version-externally-managed
+[1.082s] running egg_info
+[1.082s] creating ../../build/py_pubsub/py_pubsub.egg-info
+[1.083s] writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO
+[1.083s] writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt
+[1.083s] writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt
+[1.084s] writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt
+[1.084s] writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt
+[1.084s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.086s] reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.088s] writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'
+[1.088s] running build
+[1.088s] running build_py
+[1.088s] creating /home/frigi/dev_ws/test/build/py_pubsub/build
+[1.088s] creating /home/frigi/dev_ws/test/build/py_pubsub/build/lib
+[1.088s] creating /home/frigi/dev_ws/test/build/py_pubsub/build/lib/py_pubsub
+[1.089s] copying py_pubsub/__init__.py -> /home/frigi/dev_ws/test/build/py_pubsub/build/lib/py_pubsub
+[1.089s] copying py_pubsub/subscriber_member_function.py -> /home/frigi/dev_ws/test/build/py_pubsub/build/lib/py_pubsub
+[1.089s] copying py_pubsub/publisher_member_function.py -> /home/frigi/dev_ws/test/build/py_pubsub/build/lib/py_pubsub
+[1.089s] running install
+[1.089s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.089s]   warnings.warn(
+[1.089s] running install_lib
+[1.090s] creating /home/frigi/dev_ws/test/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[1.091s] copying /home/frigi/dev_ws/test/build/py_pubsub/build/lib/py_pubsub/__init__.py -> /home/frigi/dev_ws/test/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[1.091s] copying /home/frigi/dev_ws/test/build/py_pubsub/build/lib/py_pubsub/subscriber_member_function.py -> /home/frigi/dev_ws/test/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[1.091s] copying /home/frigi/dev_ws/test/build/py_pubsub/build/lib/py_pubsub/publisher_member_function.py -> /home/frigi/dev_ws/test/install/py_pubsub/lib/python3.10/site-packages/py_pubsub
+[1.091s] byte-compiling /home/frigi/dev_ws/test/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/__init__.py to __init__.cpython-310.pyc
+[1.092s] byte-compiling /home/frigi/dev_ws/test/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/subscriber_member_function.py to subscriber_member_function.cpython-310.pyc
+[1.092s] byte-compiling /home/frigi/dev_ws/test/install/py_pubsub/lib/python3.10/site-packages/py_pubsub/publisher_member_function.py to publisher_member_function.cpython-310.pyc
+[1.093s] running install_data
+[1.094s] creating /home/frigi/dev_ws/test/install/py_pubsub/share/ament_index
+[1.094s] creating /home/frigi/dev_ws/test/install/py_pubsub/share/ament_index/resource_index
+[1.094s] creating /home/frigi/dev_ws/test/install/py_pubsub/share/ament_index/resource_index/packages
+[1.094s] copying resource/py_pubsub -> /home/frigi/dev_ws/test/install/py_pubsub/share/ament_index/resource_index/packages
+[1.094s] copying package.xml -> /home/frigi/dev_ws/test/install/py_pubsub/share/py_pubsub
+[1.094s] running install_egg_info
+[1.096s] Copying ../../build/py_pubsub/py_pubsub.egg-info to /home/frigi/dev_ws/test/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info
+[1.097s] running install_scripts
+[1.137s] Installing listener script to /home/frigi/dev_ws/test/install/py_pubsub/lib/py_pubsub
+[1.138s] Installing talker script to /home/frigi/dev_ws/test/install/py_pubsub/lib/py_pubsub
+[1.138s] writing list of installed files to '/home/frigi/dev_ws/test/build/py_pubsub/install.log'
+[1.160s] Invoked command in '/home/frigi/dev_ws/test/src/py_pubsub' returned '0': PYTHONPATH=/home/frigi/dev_ws/test/install/py_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/py_pubsub build --build-base /home/frigi/dev_ws/test/build/py_pubsub/build install --prefix /home/frigi/dev_ws/test/install/py_pubsub --record /home/frigi/dev_ws/test/build/py_pubsub/install.log --single-version-externally-managed

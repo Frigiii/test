@@ -1,0 +1,16 @@
+/home/frigi/dev_ws/test/install/my_package/lib/my_package/my_node
+/home/frigi/dev_ws/test/install/my_package/share/ament_index/resource_index/package_run_dependencies/my_package
+/home/frigi/dev_ws/test/install/my_package/share/ament_index/resource_index/parent_prefix_path/my_package
+/home/frigi/dev_ws/test/install/my_package/share/my_package/environment/ament_prefix_path.sh
+/home/frigi/dev_ws/test/install/my_package/share/my_package/environment/ament_prefix_path.dsv
+/home/frigi/dev_ws/test/install/my_package/share/my_package/environment/path.sh
+/home/frigi/dev_ws/test/install/my_package/share/my_package/environment/path.dsv
+/home/frigi/dev_ws/test/install/my_package/share/my_package/local_setup.bash
+/home/frigi/dev_ws/test/install/my_package/share/my_package/local_setup.sh
+/home/frigi/dev_ws/test/install/my_package/share/my_package/local_setup.zsh
+/home/frigi/dev_ws/test/install/my_package/share/my_package/local_setup.dsv
+/home/frigi/dev_ws/test/install/my_package/share/my_package/package.dsv
+/home/frigi/dev_ws/test/install/my_package/share/ament_index/resource_index/packages/my_package
+/home/frigi/dev_ws/test/install/my_package/share/my_package/cmake/my_packageConfig.cmake
+/home/frigi/dev_ws/test/install/my_package/share/my_package/cmake/my_packageConfig-version.cmake
+/home/frigi/dev_ws/test/install/my_package/share/my_package/package.xml

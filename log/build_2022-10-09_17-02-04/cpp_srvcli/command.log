@@ -1,0 +1,2 @@
+Invoking command in '/home/frigi/dev_ws/test/build/cpp_srvcli': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frigi/dev_ws/test/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/frigi/dev_ws/test/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/frigi/dev_ws/test/install/cpp_srvcli
+Invoked command in '/home/frigi/dev_ws/test/build/cpp_srvcli' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/frigi/dev_ws/test/install/py_pubsub:/opt/ros/humble /usr/bin/cmake /home/frigi/dev_ws/test/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/frigi/dev_ws/test/install/cpp_srvcli

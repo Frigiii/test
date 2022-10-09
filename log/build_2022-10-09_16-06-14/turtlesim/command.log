@@ -1,0 +1,4 @@
+Invoking command in '/home/frigi/dev_ws/test/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/frigi/dev_ws/test/build/turtlesim -- -j4 -l4
+Invoked command in '/home/frigi/dev_ws/test/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/frigi/dev_ws/test/build/turtlesim -- -j4 -l4
+Invoking command in '/home/frigi/dev_ws/test/build/turtlesim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/frigi/dev_ws/test/build/turtlesim
+Invoked command in '/home/frigi/dev_ws/test/build/turtlesim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/frigi/dev_ws/test/build/turtlesim
